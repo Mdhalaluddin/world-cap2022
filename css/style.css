@@ -17,8 +17,8 @@ body{
     justify-content: space-between;
 }
 .banner{
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 550px;
     background: #161616;
     border-radius: 30px;
     margin: 90px 140px 25px 140px;
@@ -30,14 +30,12 @@ body{
     height: 500px;
 }
 .first-section{
-    align-items: center;
-    
+    align-items: center; 
 }
 h1{
     font-weight: 25px;
     font-size: 30px;
     margin-bottom: 10px;
-
 }
 
 .first-button{
@@ -48,4 +46,65 @@ h1{
     color: white;
     font-size: 20px;
     line-height: 10px;
+}
+
+/* 
+<!-------------------
+Group section 
+--------------> */
+.main-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-section{
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.blog-images{
+    width: 312px;
+    height: 175px;
+}
+.transfer-buttom{
+    font-size: 16px;
+    border-radius: 5px 5px 2px 2px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-top: 0px;
+}
+.blog-right{
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mane-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-right: 10px;
+    margin: 0px 80px 30px 10px;
+    
+}
+h4{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.fa-solid{
+    color: rgb(111, 134, 30);
+}
+.match{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.hr-broder{
+    border: 3px solid red;
+    size: 1px;
+    align-items: center;
+    
 }
