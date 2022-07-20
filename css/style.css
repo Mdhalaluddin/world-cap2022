@@ -10,6 +10,9 @@ body{
 /*------------------
  main-seation
 -------------------- */
+main{
+    width: 100vh;
+}
 .banner{
     display: flex;
     color: white;
@@ -26,11 +29,13 @@ body{
     align-items: center;
 }
 .lionel-messi img{
-    width: 450px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
+   
 }
 .first-section{
     align-items: center; 
+    padding-left: 20px;
 }
 h1{
     font-weight: 25px;
@@ -47,14 +52,85 @@ h1{
     font-size: 20px;
     line-height: 10px;
 }
+.first-button .fa-solid{
+    color: #FFFFFF;
+}
 
 /* 
 <!-------------------
 Group section 
 --------------> */
+.live-match{
+    width: 250px;
+    height: 260px;
+    display: grid;
+    align-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+.match-1{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px; 
+}
+.match-2{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px; 
+}
+.match-3{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px; 
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* .hr-broder{
+    border: 2px solid red;
+    border-right-width: 15px;
+    size: 25px;
+    font-size: 30px;
+    text-align: center;
+} */
+.match .match blog{
+    background-color: #DD0000;
+}
+.blog-color{
+    color: #FFFFFF;
+}
+.group-section{
+    display: flex;
+}
 .main-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    margin-bottom: 24px;
+    margin: 10px;
+    row-gap: 24px;
 }
 .blog-section{
     width: 312px;
@@ -84,8 +160,7 @@ Group section
     flex-direction: row-reverse;
     justify-content: space-around;
     padding-right: 10px;
-    margin: 0px 80px 30px 10px;
-    
+    margin: 0px 80px 30px 10px;   
 }
 h4{
     font-size: 18px;
@@ -95,16 +170,42 @@ h4{
 .fa-solid{
     color: rgb(111, 134, 30);
 }
-.match{
-    width: 312px;
-    height: 312px;
+
+/* ----------
+footer 
+-----------*/
+.footer-section{
+    width: 1400px;
+    height: 350px;
     background-color: black;
-    color: white;
+    color: #FFFFFF;
+    padding: 50px;
+    margin-top: 118px;
+    margin-left: 0px;
     border-radius: 10px;
 }
-.hr-broder{
-    border: 3px solid red;
-    size: 1px;
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #161616;
+    width: 1100px;
+    justify-content: center;
+}
+.footer-tag{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
+    justify-content: space-around;
+    margin: 50px 100px 120px 100px;
+    color: #FFFFFF;
+}
+.link-tag{
+    color: #FFFFFF;
+    font-size: 20px;
 }
