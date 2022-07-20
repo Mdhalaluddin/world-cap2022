@@ -177,13 +177,12 @@ h4{
 footer 
 -----------*/
 .footer-section{
-    width: 1400px;
+    width: 1290px;
     height: 350px;
     background-color: black;
     color: #FFFFFF;
     padding: 50px;
     margin-top: 118px;
-    margin-left: 0px;
     border-radius: 10px;
 }
 h1{
