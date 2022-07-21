@@ -11,7 +11,8 @@ body{
  main-seation
 -------------------- */
 main{
-    width: 100vh;
+    height: 100%;
+    width: 100%;
 }
 .banner{
     display: flex;
@@ -53,6 +54,17 @@ h1{
     color: white;
     font-size: 20px;
     line-height: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    transform: none;
+}
+.first-button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
 }
 .first-button .fa-solid{
     color: #FFFFFF;
@@ -209,4 +221,75 @@ hr{
 .link-tag{
     color: #FFFFFF;
     font-size: 20px;
+}
+.footer-icon{
+    display: none;
+} 
+/* --------------------
+Media Queries 
+-------------------*/
+/* ---------------------Mobile-Devices ------------------*/
+@media only screen and (max-width: 768px) {
+    .banner{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 0px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .banner{
+        margin: 0px;
+        border: 0px;
+        border-radius: 10px;
+    }
+    .lionel-messi{
+        width: 400px;
+        height: 530px;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-section{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-right: 80px;
+    }
+    /* group-section */
+    .group-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        justify-items: center;
+    }
+    .live-match{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #FFFFFF;
+        align-items: center;
+    }
+    .main-blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+    }
+    .footer-section{
+        width: 375px;
+        height: 412px;
+    }
+    .footer-tag{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        column-gap: 30px;
+    }
+    .footer-icon{
+        display: flex;
+        margin-top: 20px;
+        column-gap: 30px;
+    }
+   
 }
